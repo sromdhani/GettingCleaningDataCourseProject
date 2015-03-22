@@ -183,157 +183,162 @@ Here we describe for each variable its name, the type and the possible values
  type : numeric
  
  values: bounded within [-1,1] 
-- tBodyAccJerkMag-mean()
+- tBodyAccJerkMag-mean() : The mean Value of the Jerk signals of the magnitude of Body acceleration signals in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerkMag-std()
+- tBodyAccJerkMag-std(): The Standard deviation Value of the Jerk signals of the magnitude of Body acceleration signals in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroMag-mean() 
+- tBodyGyroMag-mean(): The mean value of the Body angular velocity in the time domain. 
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroMag-std()
+- tBodyGyroMag-std(): The Standard deviation value of the Body angular velocity in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1] 
-- tBodyGyroJerkMag-mean()
+- tBodyGyroJerkMag-mean(): The mean value of the Jerk signals of the Body angular velocity in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerkMag-std()
+- tBodyGyroJerkMag-std(): : The Standard deviation value of the Jerk signals of the Body angular velocity in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1] 
-- fBodyAcc-mean()-X 
+- fBodyAcc-mean()-X:  the Mean value of body acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAcc-mean()-Y 
+- fBodyAcc-mean()-Y : the Mean value of body acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAcc-mean()-Z
+- fBodyAcc-mean()-Z: the Mean value of body acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1] 
-- fBodyAcc-std()-X
+- fBodyAcc-std()-X : the Standard deviation value of body acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAcc-std()-Y 
+- fBodyAcc-std()-Y : the Standard deviation value of body acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAcc-std()-Z 
+- fBodyAcc-std()-Z : the Standard deviation value of body acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccJerk-mean()-X
+- fBodyAccJerk-mean()-X: the Mean value of the Jerk Signals of the body acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccJerk-mean()-Y 
+- fBodyAccJerk-mean()-Y : the Mean value of the Jerk Signals of the body acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccJerk-mean()-Z 
+- fBodyAccJerk-mean()-Z : the Mean value of the Jerk Signals of the body acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccJerk-std()-X
+- fBodyAccJerk-std()-X: the Standard deviation value of the Jerk Signals of the body acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccJerk-std()-Z
+- fBodyAccJerk-std()-Z: Standard deviation value of the Jerk Signals of the body acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-mean()-X
+ - fBodyAccJerk-std()-Y: Standard deviation value of the Jerk Signals of the body acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-mean()-Y
+- fBodyGyro-mean()-X: the Mean value of Gravity acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-mean()-Z 
+- fBodyGyro-mean()-Y: the Mean value of Gravity acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-std()-X 
+- fBodyGyro-mean()-Z : the Mean value of Gravity acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-std()-Y 
+- fBodyGyro-std()-X : the Standard deviation value of Gravity acceleration signals on the X axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyGyro-std()-Z 
+- fBodyGyro-std()-Y :  the Standard deviation value of Gravity acceleration signals on the Y axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccMag-mean() 
+- fBodyGyro-std()-Z :  the Standard deviation value of Gravity acceleration signals on the Z axis in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyAccMag-std()
+- fBodyAccMag-mean() : the Mean value of the Magnitude of the Body acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyAccJerkMag-mean()
+- fBodyAccMag-std(): the Standard deviation value of the Magnitude of the Body acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyAccJerkMag-std()
+- fBodyBodyAccJerkMag-mean(): the Mean value of the Magnitude of the Jerk Signals of the Body acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyGyroMag-mean()
+- fBodyBodyAccJerkMag-std(): the Standard deviation value of the Magnitude of the Jerk Signals of the Body acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyGyroMag-std()
+- fBodyBodyGyroMag-mean(): the Mean value of the Magnitude of the Gravity acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyGyroJerkMag-mean()
+- fBodyBodyGyroMag-std(): the Standard deviation value of the Magnitude of the Gravity acceleration signals in the frequency domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- fBodyBodyGyroJerkMag-std()
+- fBodyBodyGyroJerkMag-mean(): the Mean value of the Magnitude of the Jerk Signals of the Gravity acceleration signals in the frequency domain
+ 
+ type : numeric
+ 
+ values: bounded within [-1,1]
+- fBodyBodyGyroJerkMag-std(): the Standard deviation value of the Magnitude of the Jerk Signals of the Gravity acceleration signals in the frequency domain
  
  type : numeric
  
