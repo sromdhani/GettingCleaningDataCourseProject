@@ -13,92 +13,92 @@ Here we describe for each variable its name, the type and the possible values
  Types is factor
  
  Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-- tBodyAcc-mean()-X
+- tBodyAcc-mean()-X:  The Mean value of body acceleration signals on the X axis in the time domain
  
  Type : numeric 
 
  Values: bounded within [-1,1]
-- tBodyAcc-mean()-Y 
+- tBodyAcc-mean()-Y: The Mean value of body acceleration signals on the Y axis in the time domain
  
  Type : numeric
 
  Values: bounded within [-1,1]
-- tBodyAcc-mean()-Z
+- tBodyAcc-mean()-Z: The Mean value of body acceleration signals on the Z axis in the time domain
  
  Type : numeric
 
  Values: bounded within [-1,1]
-- tBodyAcc-std()-X 
+- tBodyAcc-std()-X: the Standard deviation of body acceleration signals on the X axis in the time domain
  
  Type : numeric
 
  Values: bounded within [-1,1]
-- tBodyAcc-std()-Y
+- tBodyAcc-std()-Y: the Standard deviation of body acceleration signals on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAcc-std()-Z 
+- tBodyAcc-std()-Z : the Standard deviation value of body acceleration signals on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-mean()-X 
+- tGravityAcc-mean()-X : The Mean value of the Gravity acceleration signals on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-mean()-Y
+- tGravityAcc-mean()-Y :The Mean value of the Gravity acceleration signals on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-mean()-Z
+- tGravityAcc-mean()-Z: The Mean value of the Gravity acceleration signals on the Z axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-std()-X
+- tGravityAcc-std()-X: The Standard deviation value of the Gravity acceleration signals on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-std()-Y
+- tGravityAcc-std()-Y: The Standard deviation value of the Gravity acceleration signals on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAcc-std()-Z 
+- tGravityAcc-std()-Z : The Standard deviation value of the Gravity acceleration signals on the Z axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-X
+- tBodyAccJerk-mean()-X : The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-Y 
+- tBodyAccJerk-mean()-Y: The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the Y axis in the time domain 
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-Z
+- tBodyAccJerk-mean()-Z: The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the Z axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-X
+- tBodyAccJerk-std()-X: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-Y
+- tBodyAccJerk-std()-Y: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-Z
+- tBodyAccJerk-std()-Z: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the Z axis in the time domain
  
  type : numeric
  
