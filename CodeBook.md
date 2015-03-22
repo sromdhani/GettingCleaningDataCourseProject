@@ -73,112 +73,112 @@ Here we describe for each variable its name, the type and the possible values
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-X : The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the X axis in the time domain
+- tBodyAccJerk-mean()-X : The Mean value of the Jerk signals of the body linear acceleration on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-Y: The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the Y axis in the time domain 
+- tBodyAccJerk-mean()-Y: The Mean value of the Jerk signals of the body linear acceleration on the Y axis in the time domain 
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-mean()-Z: The Mean value of the Jerk signals of the body linear acceleration and angular velocity on the Z axis in the time domain
+- tBodyAccJerk-mean()-Z: The Mean value of the Jerk signals of the body linear acceleration on the Z axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-X: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the X axis in the time domain
+- tBodyAccJerk-std()-X: The Standard deviation value of the Jerk signals of the body linear acceleration on the X axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-Y: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the Y axis in the time domain
+- tBodyAccJerk-std()-Y: The Standard deviation value of the Jerk signals of the body linear acceleration on the Y axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccJerk-std()-Z: The Standard deviation value of the Jerk signals of the body linear acceleration and angular velocity on the Z axis in the time domain
+- tBodyAccJerk-std()-Z: The Standard deviation value of the Jerk signals of the body linear acceleration on the Z axis in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyro-mean()-X
+- tBodyGyro-mean()-X: The Mean value of the Body angular velocity on the X axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyro-mean()-Y
+- tBodyGyro-mean()-Y: The Mean value of the angular velocity on the Y axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyro-mean()-Z
+- tBodyGyro-mean()-Z: The Mean value of the angular velocity on the Z axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1] 
-- tBodyGyro-std()-X
+- tBodyGyro-std()-X: The Standard deviation value of the angular velocity on the X axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyro-std()-Y
+- tBodyGyro-std()-Y: The Standard deviation value of the angular velocity on the Y axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyro-std()-Z 
+- tBodyGyro-std()-Z : The Standard deviation value of the angular velocity on the Z axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-mean()-X 
+- tBodyGyroJerk-mean()-X: The Mean value of the Jerk signals of the Body angular velocity on the X axis in the time domain. 
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-mean()-Y
+- tBodyGyroJerk-mean()-Y: The Mean value of the Jerk signals of the Body angular velocity on the Y axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-mean()-Z
+- tBodyGyroJerk-mean()-Z: The Mean value of the Jerk signals of the Body angular velocity on the Z axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-std()-X 
+- tBodyGyroJerk-std()-X : The Standard deviation value of the Jerk signals of the Body angular velocity on the X axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-std()-Y 
+- tBodyGyroJerk-std()-Y : The Standard deviation value of the Jerk signals of the Body angular velocity on the Y axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyGyroJerk-std()-Z
+- tBodyGyroJerk-std()-Z: The Standard deviation value of the Jerk signals of the Body angular velocity on the Z axis in the time domain.
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccMag-mean() 
+- tBodyAccMag-mean() : The mean Value of the magnitude of body acceleration signals in the time domain  
  
  type : numeric
  
  values: bounded within [-1,1]
-- tBodyAccMag-std()
+- tBodyAccMag-std(): The Standard deviation Value of the magnitude of body acceleration signals in the time domain
  
  type : numeric
  
  values: bounded within [-1,1]
-- tGravityAccMag-mean()
+- tGravityAccMag-mean(): The mean Value of the magnitude of Gravity acceleration signals in the time domain
  
  type : numeric
  
  values: bounded within [-1,1] 
-- tGravityAccMag-std()
+- tGravityAccMag-std(): The Standard deviation Value of the magnitude of Gravity acceleration signals in the time d
  
  type : numeric
  
