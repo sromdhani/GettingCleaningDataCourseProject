@@ -2,25 +2,39 @@
 This is a code book that explains that describes the different variables
 
 - subject: the subject number 
+
  type is string 
+ 
  values: from "1" to "30"
 - activity_name: the activity name performed
+ 
  types is string
+ 
  values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - tBodyAcc-mean()-X
+ 
  type 
+
  values: bounded within [-1,1]
 - tBodyAcc-mean()-Y 
+ 
  type 
+ 
  values: bounded within [-1,1]
 - tBodyAcc-mean()-Z
+ 
  type 
+
  values: bounded within [-1,1]
 - tBodyAcc-std()-X 
+ 
  type 
+
  values: bounded within [-1,1]
 - tBodyAcc-std()-Y
+ 
  type 
+ 
  values: bounded within [-1,1]
 - tBodyAcc-std()-Z 
 - tGravityAcc-mean()-X 
